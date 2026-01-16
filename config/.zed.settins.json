@@ -1,0 +1,58 @@
+{
+  "icon_theme": "Catppuccin Latte",
+  "base_keymap": "VSCode",
+  "ui_font_family": "MonacoLigaturized Nerd Font",
+  "ui_font_size": 18,
+  "buffer_font_family": "MonacoLigaturized Nerd Font",
+  "buffer_font_size": 16,
+  "buffer_line_height": "standard",
+  "buffer_font_weight": 400.0,
+  "theme": "Github Dark Dimmed",
+  "terminal": {
+    "font_size": 16,
+    "font_family": "MonacoLigaturized Nerd Font"
+  },
+  "tab_size": 2,
+  "auto_indent_on_paste": true,
+  "use_on_type_format": true,
+  "preferred_line_length": 120,
+  "soft_wrap": "bounded",
+  "cursor_shape": "bar",
+  "cursor_blink": true,
+  "auto_indent": true,
+  "autosave": "on_focus_change",
+  "format_on_save": "on",
+  "rounded_selection": false,
+  "selection_highlight": false,
+  "show_edit_predictions": true,
+  "show_whitespaces": "selection",
+  "linked_edits": true,
+  "project_panel": {
+    "auto_fold_dirs": false
+  },
+  "show_signature_help_after_edits": false,
+  "auto_signature_help": false,
+  "minimap": {
+    "show": "never"
+  },
+  "file_types": {
+    "javascript": ["*.js", "*.js"],
+    "javascriptreact": ["*.jsx", "*.jsx"],
+    "html": ["*.njk", "*.html", "*.njk", "*.html"],
+    "postcss": ["*.css", "*.css"]
+  },
+  "agent_servers": {
+    "Claude Code + GLM": {
+      "type": "custom",
+      "command": "claude-code-acp",
+      "args": ["--dangerously-skip-permissions"],
+      "env": {
+        "ANTHROPIC_API_KEY": "b782d5a3cc554a87b67e0bd68d0c5365.QOPyPWA8VTEmRk44",
+        "ANTHROPIC_BASE_URL": "https://api.z.ai/api/anthropic",
+        "ANTHROPIC_DEFAULT_OPUS_MODEL": "glm-4.7",
+        "ANTHROPIC_DEFAULT_SONNET_MODEL": "glm-4.7",
+        "ANTHROPIC_DEFAULT_HAIKU_MODEL": "glm-4.5-air"
+      }
+    }
+  }
+}

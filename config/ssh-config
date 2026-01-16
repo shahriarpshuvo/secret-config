@@ -1,0 +1,9 @@
+Host rpi5
+  Hostname 100.96.219.55
+  User shahriarpshuvo
+  IdentityFile ~/.ssh/id_rsa
+
+Host mindantic
+  Hostname 91.98.151.40
+  User root
+  IdentityFile ~/.ssh/id_rsa
